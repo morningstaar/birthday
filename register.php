@@ -1,9 +1,9 @@
 <?php
 // Assurez-vous d'avoir les informations de connexion correctes
 $host = 'e-srv-lamp.univ-lemans.fr';
-$user = 'e2304411'; // Remplacez par votre numéro étudiant de session
-$database = 'e2304411'; // Remplacez par votre numéro étudiant de session
-$password = 'Fvk896ph'; // Remplacez par votre mot de passe étudiant de session
+$user = 'e2304411'; 
+$database = 'e2304411';
+$password = 'Fvk896ph'; 
 
 // Vérifie si une requête POST a été envoyée
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" ></script>
     <title>Anniversaire</title>
 </head>
 <body>
 
     <div class="container">
-        <h1>Votre Anniversaire</h1>
+        <h1 id="titre">L'Anniversaire de Bertrand </h1>
 
-        <p>Nom: Votre Nom</p>
+        <p>SILUE Gnenema Bertrand</p>
+        <img src="me.jpg" alt="moi">
         <p>Date et Heure: 20 janvier 2024 à 19h00</p>
-        <p>Thème: Années 80 <button onclick="displayExplanations()"></button></p>
-        <p id="explanation" style="display: none;">Description du thème des années 80...</p>
+        <p>Thème: Années 80 <button onclick="displayExplanations()">En Savoir plus...</button></p>
+        <p id="explanation" style="display: none;">La culture des années 80 c'est bien entendu des chanteurs et groupes emblématiques, l'arrivée des vidéo-clips. Mais c'est également une période riche en sitcoms et en films ! Que diriez-vous de placer votre fête anniversaire sous le signe des séries TV et du cinéma des années 80 ? Procurez-vous des affiches de ces films cultes pour en faire une décoration à thème originale qui fera verser une petite larme aux plus nostalgiques. </p>
         <p>Lieu: <a href="https://www.lemans.fr/dynamique/la-proximite/les-salles-municipales/le-descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes" target="_blank">Salle du Jardin des Plantes</a></p>
 
         <form action="register.php" method="post">

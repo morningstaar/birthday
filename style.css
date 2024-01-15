@@ -1,20 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Couleur de fond */
+    background-color: #F5F5DC; /* Couleur de fond */
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* 100% de la hauteur de la vue */
+    height: 100vh; 
     margin: 0;
 }
 
 .container {
-    background-color: #3498db; /* Couleur bleue */
-    border-radius: 20px; /* Bords arrondis */
+    background-color: #856D4D; 
+    border-radius: 20px; 
     padding: 20px;
     max-width: 600px;
+    color: white;
 }
 
 button {
     cursor: pointer;
+    background-color: rgb(65, 72, 139);
+    color: white;
+}
+img {
+    height: 300px;
+    width: auto;
+}
+#titre{
+    margin-left: 100px;
 }
