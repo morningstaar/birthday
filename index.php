@@ -19,7 +19,9 @@
         <p id="explanation" style="display: none;">La culture des années 80 c'est bien entendu des chanteurs et groupes emblématiques, l'arrivée des vidéo-clips. Mais c'est également une période riche en sitcoms et en films ! Que diriez-vous de placer votre fête anniversaire sous le signe des séries TV et du cinéma des années 80 ? Procurez-vous des affiches de ces films cultes pour en faire une décoration à thème originale qui fera verser une petite larme aux plus nostalgiques. </p>
         <p>Lieu: <a href="https://www.lemans.fr/dynamique/la-proximite/les-salles-municipales/le-descriptif-des-salles-municipales/la-salle-du-jardin-des-plantes" target="_blank">Salle du Jardin des Plantes</a></p>
 
+        
         <form action="register.php" method="post">
+        <p>FORMULAIRE DE CONFIRMATION DE PRESENCE:</p>
             <label for="nom">Nom :</label>
             <input type="text" id="nom" name="nom" required>
 

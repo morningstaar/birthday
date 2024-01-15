@@ -28,3 +28,9 @@ img {
 #titre{
     margin-left: 100px;
 }
+
+form{
+    background-color: rgb(41, 92, 41);
+    border-radius: 20px;
+    padding: 20px;
+}
